@@ -19,8 +19,8 @@ body{
     background-color: white;
 }
 #maincontent{
-    grid-area: 2/2/3/3;
-    background-color: rgba(211, 211, 211, 0.779);
+    grid-area: 2/2/-1/-1;
+    background-color: rgba(36, 30, 30, 0.779);
 }
 #sidebar div{
     display:flex;
