@@ -88,6 +88,9 @@ body{
 .emoji-bar{
     margin-top:auto;
     align-self:flex-end;
+    display:flex;
+    justify-content: space-between;
+    width:40px;
 }
 
 .card-content{
