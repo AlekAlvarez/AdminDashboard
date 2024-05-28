@@ -27,6 +27,41 @@ body{
     gap:6px;
     padding:6px;
 }
+.card{
+    display: flex;
+    background-color: rgb(195, 192, 192);
+}
+#one{
+    grid-area:1/1/2/3;
+}
+#two{
+    grid-area:1/3/-1/4
+}
+.emoji-bar{
+    margin-top:auto;
+    align-self:flex-end;
+}
+.card-content{
+    display: flex;
+    flex-direction: column;
+    padding:5px;
+    gap:5px;
+}
+.card-title{
+    font-size: medium;
+    font-weight:bold;
+}
+.card-paragraph{
+    font-size:small;
+}
+.bar{
+    background-color: yellow;
+    width: 2%;
+    height:100%;
+}
+#three{
+    grid-area:2/1/3/2;
+}
 #sidebar div{
     display:flex;
     justify-content: left;
